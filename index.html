@@ -44,12 +44,59 @@
 
 
 
+
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">Composing Task Knowledge With Modular Successor Feature Approximators</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="/"><span style="color: #9f30a5">Wilka Carvalho</span></a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://lampinen.github.io/">Angelos Filos</a><sup>2</sup>,</span>
+            <span class="author-block">
+             <a href="http://www-personal.umich.edu/~rickl/">Richard L. Lewis</a><sup>1</sup>,</span>
+            </span>
+            <span class="author-block">
+              <a href="https://web.eecs.umich.edu/~honglak/">Honglak Lee</a><sup>1,3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://web.eecs.umich.edu/~baveja/">Satinder Singh</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">University of Michigan<sup>1</sup>,</span>
+            <span class="author-block">University of Oxford<sup>2</sup>,</span>
+            <span class="author-block">LGAI <sup>3</sup></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2112.08369"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/wcarvalho/msfa_iclr2023/tree/main"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -88,11 +135,11 @@
           </div>
           <div class="content has-text-justified">
             <p><b>Prior work:</b>
-              (1) FARM learns multiple state modules. This enables discovering useful state features in different modules and promotes generalization to novel environment configurations. However, it has no mechanism for combining task solutions.
-              (2) USFA learns a single monolothic architecture for predicing SFs and can combine task solutions. However, it relies on hand-designed state features and has no mechanism for generalization to novel environment configurations. 
+              Feature-Attending Recurrent Modules (FARM, 1) learns multiple state modules. This enables discovering useful state features in different modules and promotes generalization to novel environment configurations. However, it has no mechanism for combining task solutions.
+              Universal Successor Feature Approximators (USFA, 2) learns a single monolothic architecture for predicing SFs and can combine task solutions. However, it relies on hand-designed state features and has no mechanism for generalization to novel environment configurations. 
             </p>
             <p>
-              (3) <b>Modular Successor Feature Approximatos: </b> We combine the benefits of both We have modules that discover their own state features and learn their own SFs. This enables combining task solutions in the face of novel environment configurations.
+              <b>Modular Successor Feature Approximators: </b> We combine the benefits of both We have modules that discover their own state features and learn their own SFs. This enables combining task solutions in the face of novel environment configurations.
             </p>
           </div>
         </div>
